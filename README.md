@@ -3,6 +3,11 @@
 #Pasos a seguir para instalar el backend realizado en NESTJS el cual es consumido por el frontend en ANGULAR V19
 version nestjs: 11.0.7
 node: v22.17.1
+PostgreSQL
+TypeORM
+Axios + Cheerio (para web scraping)
+
+Jest (pruebas unitarias)
 
 ○ GET /books: listado completo
 ○ GET /books/:id: detalle
