@@ -1,0 +1,3 @@
+
+para la realizacion de scraping se usara los paquetes de cheerio y axios el cual me familiarizo
+
