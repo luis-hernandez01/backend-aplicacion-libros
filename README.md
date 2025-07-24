@@ -25,7 +25,7 @@ Instalar globalmente npm install -g @nestjs/cli
 4) luego ejecutar lo siguiente para que se inicialice el proyecto y abra el navegador 
 npm run start
  5) Para la realizacion de las pruebas ejecutar npm run test
- 6) cambiar parametros de conexion desde app.module
+ 6) configurar variables de entorno con los parametros necesarios para postgres
 
 prealizacion de pruebas con Postman
 lista                   =>        http://localhost:3000/books
