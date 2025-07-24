@@ -1,12 +1,12 @@
 
 
-#Pasos a seguir para instalar el backend realizado en NESTJS el cual es consumido por el frontend en ANGULAR V19
-version nestjs: 11.0.7
+#Pasos a seguir para instalar el backend realizado en NESTJS el cual es consumido por el frontend en ANGULAR V19 son necesarias para el funcionamiento
+
+nestjs: 11.0.7
 node: v22.17.1
 PostgreSQL
 TypeORM
 Axios + Cheerio (para web scraping)
-
 Jest (pruebas unitarias)
 
 ○ GET /books: listado completo
@@ -15,7 +15,8 @@ Jest (pruebas unitarias)
 ○ DELETE /books/:id: eliminar libro
 
 #Requistos para obtener el backen de nestjs
-Instalar globalmente npm install -g @nestjs/cli
+Instalar globalmente 
+npm install -g @nestjs/cli
 
 #INSTALACION
 
@@ -25,9 +26,15 @@ Instalar globalmente npm install -g @nestjs/cli
 4) luego ejecutar lo siguiente para que se inicialice el proyecto y abra el navegador 
 npm run start
  5) Para la realizacion de las pruebas ejecutar npm run test
- 6) configurar variables de entorno con los parametros necesarios para postgres
+ 6) configurar variables de entorno con los parametros necesarios
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=tu_usuario
+DB_PASSWORD=tu_contraseña
+DB_NAME=nombre_basedatos
 
-prealizacion de pruebas con Postman
+
+#Realizacion de pruebas con Postman
 lista                   =>        http://localhost:3000/books
 Buscar por categoria    =>        http://localhost:3000/books?category=Poetry
 detalle                 =>        http://localhost:3000/books/2
